@@ -145,7 +145,7 @@ const run = async () => {
       })
     }
   })
-  const port = process.env.PORT || 9528
+  const port = process.env.PORT || 80
   app.listen(port, () => {
     console.log(`mahou server started at ${port}`)
     console.log(`api point: http://localhost:${port}/api/v1/dayNews`)
